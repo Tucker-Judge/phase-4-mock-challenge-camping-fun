@@ -24,7 +24,7 @@ There is some starter code in the `db/seeds.rb` file so that once you've
 generated the models, you'll be able to create data to test your application.
 
 You can run your Rails API on [`localhost:3000`](http://localhost:3000) by running:
-
+ 
 ```console
 $ rails s
 ```
