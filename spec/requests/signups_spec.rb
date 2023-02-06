@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe "Signups", type: :request do
   before do
-    Camper.create(name: 'Caitlin', age: 8)
     Activity.create(name: 'Archery', difficulty: 2)
+    Camper.create(name: 'Caitlin', age: 8)
   end
 
   describe "POST /signups" do
